@@ -1,0 +1,10 @@
+{
+  "schema": "project-historian-v1",
+  "required": ["id", "kind", "title", "assertion_class", "status", "source_ids", "evidence", "relationships", "ingestion"],
+  "stable_id_pattern": "^[A-Z][A-Z0-9]{2,7}-[a-z0-9][a-z0-9-]*$",
+  "evidence_hash_rule": "sha256 is 64 lowercase hex or null with hash_status",
+  "reference_rule": "source_ids and evidence.source_id resolve to sources/manifest.json; relationship targets resolve to a record ID or source ID",
+  "kinds": ["event", "evidence", "claim", "experiment", "decision", "hypothesis", "failure", "milestone", "artifact", "revision"],
+  "assertion_classes": ["observed_fact", "contemporary_interpretation", "retrospective_interpretation"],
+  "statuses": ["active", "superseded", "disputed", "candidate"]
+}

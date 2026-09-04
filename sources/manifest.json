@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-09-03",
+  "schema": "project-historian-v1-source-manifest",
+  "sources": [
+    {
+      "hash_status": "verified",
+      "kind": "CI run log",
+      "original_path": "sources/ci-run-4821.log",
+      "preservation": "copied into the example corpus as synthetic evidence",
+      "sha256": "2d84749863df8ba619626be9ce04ae7b8acdfb65313e948a437f59a4ba980d4e",
+      "source_id": "SRC-EXAMPLE-CI",
+      "tracking": "in corpus"
+    },
+    {
+      "hash_status": "verified",
+      "kind": "decision log",
+      "original_path": "sources/decision-log.md",
+      "preservation": "copied into the example corpus as synthetic evidence",
+      "sha256": "e5d6940c0880691730374074c76e5097c4f03a19fbdb99705be41cd06040b516",
+      "source_id": "SRC-EXAMPLE-DECISIONS",
+      "tracking": "in corpus"
+    },
+    {
+      "hash_status": "verified",
+      "kind": "git log excerpt",
+      "original_path": "sources/git-log-excerpt.txt",
+      "preservation": "copied into the example corpus as synthetic evidence",
+      "sha256": "4f5610b038e672298456cc8bbd12966b61a017f5c1e0de3eea497d50e448d1ca",
+      "source_id": "SRC-EXAMPLE-GIT-LOG",
+      "tracking": "in corpus"
+    },
+    {
+      "hash_status": "verified",
+      "kind": "release notes",
+      "original_path": "sources/release-notes-120.md",
+      "preservation": "copied into the example corpus as synthetic evidence",
+      "sha256": "c59587385700ad5f8700b4e88ad0337ccb51d747d6ad28e22b3145c672309cbe",
+      "source_id": "SRC-EXAMPLE-NOTES",
+      "tracking": "in corpus"
+    },
+    {
+      "hash_status": "not-yet-recorded",
+      "kind": "git repository",
+      "original_path": "harbor-notes upstream repository (fictional example reference)",
+      "preservation": "referenced, not copied",
+      "sha256": null,
+      "source_id": "SRC-EXAMPLE-REPO",
+      "tracking": "example reference"
+    }
+  ]
+}

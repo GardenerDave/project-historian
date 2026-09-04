@@ -1,0 +1,20 @@
+Harbor Notes — example git log excerpt (synthetic)
+==================================================
+
+This excerpt is fictional example data for the Project Historian example
+corpus. Every commit id, author, and subject below is synthetic.
+
+L3  commit 1e813ae22daf2ace058aefe2ac9ec5954461b192  2026-03-02  Alex Example
+L4      Prepare 1.2.0 release notes
+L5
+L6  commit b32e51d6633467788803493ae7a7b7408c996601  2026-03-04  Robin Example
+L7      Release Harbor Notes 1.2.0
+L8
+L9  commit 9bfed0294b306b97cfce017cd16525f4c72fef44  2026-03-06  Robin Example
+L10     Sort search results deterministically in the search endpoint
+L11
+L12 commit b24a194b3f6232d7882753695979825139d891f7  2026-03-07  Alex Example
+L13     Add regression test for search endpoint result ordering
+L14
+L15 commit c94fa75ac7936c703a46a0d2111508236068fe30  2026-03-11  Alex Example
+L16     Document the frozen serialization format for search results

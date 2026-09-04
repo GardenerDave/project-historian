@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/server/utils/agents/imported-manifest.schema.json",
+  "active": true,
+  "hubId": "historian_evidence",
+  "name": "Historian Evidence",
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Retrieve bounded canonical Historian evidence for a question. The returned records are read-only Historian memory and are not writable. When the final answer materially relies on this evidence, cite only the stable Historian record IDs that materially support the answer.",
+  "author": "OpenAI Codex",
+  "license": "PolyForm Noncommercial License 1.0.0",
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "question": {
+        "description": "Free-text Historian question",
+        "type": "string"
+      }
+    }
+  }
+}

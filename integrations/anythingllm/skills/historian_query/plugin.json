@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/server/utils/agents/imported-manifest.schema.json",
+  "active": true,
+  "hubId": "historian_query",
+  "name": "Historian Query",
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Ask Historian's grounded reasoner to answer a project-history question. Use when a grounded Historian answer is preferable to reasoning over raw evidence yourself. After this tool returns, continue to a final assistant response that preserves the grounded answer and cites the stable Historian record IDs that materially support it; do not stop at tool-call syntax.",
+  "author": "OpenAI Codex",
+  "license": "PolyForm Noncommercial License 1.0.0",
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "question": {
+        "description": "Free-text Historian question",
+        "type": "string"
+      }
+    }
+  }
+}

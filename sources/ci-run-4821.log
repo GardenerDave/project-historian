@@ -1,0 +1,22 @@
+Harbor Notes — example CI run log (synthetic)
+=============================================
+
+This log is fictional example data for the Project Historian example corpus.
+Run identifiers, hosts, and results are synthetic.
+
+Run 4821 (failed) — 2026-03-05 — runner example-runner-01
+
+L12 test_search_endpoint.py
+L13     result: FAILED (intermittent)
+L14     detail: result ordering differed between two identical queries
+L15     detail: failure reproduced on 1 of 3 attempts
+L16     detail: no failure when the query was repeated in the same process
+L17 summary: 214 passed, 1 failed, 0 skipped
+L18 conclusion: search endpoint result order is not stable across requests
+
+Stability re-checks after the ordering fix (runs 4830-4859)
+
+L24 runs: 30
+L25 passed: 30
+L26 failed: 0
+L27 conclusion: search endpoint result ordering stable across 30 consecutive runs
